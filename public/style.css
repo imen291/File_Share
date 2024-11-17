@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app {
+  width: 90%;
+  max-width: 400px;
+  background: #1e1e2f;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.screen {
+  display: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.screen.active {
+  display: block;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 10px 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background: #2575fc;
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background: #1d60d9;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #2575fc;
+  border: 2px solid #2575fc;
+}
+
+.secondary-btn:hover {
+  background: #2575fc;
+  color: #fff;
+}
+
+
+
+
+
+/* File Input Styles */
+.file-input {
+  margin-top: 20px;
+}
+
+.file-label {
+  display: block;
+  padding: 15px;
+  border: 2px dashed #2575fc;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.file-label:hover {
+  background: rgba(37, 117, 252, 0.1);
+}
+
+.file-input-field {
+  display: none;
+}
+
+/* File List */
+.files-list {
+  margin-top: 20px;
+  background: #2b2b3d;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.files-list .title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#join-id b {
+  color: #fff;
+  display: block;
+  margin-top: 20px;
+}
+
+#join-id span {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: monospace;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #2575fc;
+  margin-top: 5px;
+  border-radius: 8px;
+}
